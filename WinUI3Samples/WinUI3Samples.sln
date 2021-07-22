@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "FirstWinUI3App (Package)", "FirstWinUI3App\FirstWinUI3App (Package)\FirstWinUI3App (Package).wapproj", "{98DC9FCA-D48F-4ACA-BE9A-497019930463}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstWinUI3App", "FirstWinUI3App\FirstWinUI3App\FirstWinUI3App.csproj", "{F54E067F-8504-4C17-9AA0-2A8B0CA51982}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstWinUI3App", "FirstWinUI3App\FirstWinUI3App\FirstWinUI3App.csproj", "{F54E067F-8504-4C17-9AA0-2A8B0CA51982}"
+EndProject
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "ListViewSample (Package)", "ListViewSample\ListViewSample (Package)\ListViewSample (Package).wapproj", "{B83F56F5-573A-4105-A04E-1398C2639CC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewSample", "ListViewSample\ListViewSample\ListViewSample.csproj", "{64EF41B6-C497-4D63-A83B-B5D3B82381DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,36 @@ Global
 		{F54E067F-8504-4C17-9AA0-2A8B0CA51982}.Release|x64.Build.0 = Release|x64
 		{F54E067F-8504-4C17-9AA0-2A8B0CA51982}.Release|x86.ActiveCfg = Release|x86
 		{F54E067F-8504-4C17-9AA0-2A8B0CA51982}.Release|x86.Build.0 = Release|x86
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Debug|arm64.ActiveCfg = Debug|arm64
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Debug|arm64.Build.0 = Debug|arm64
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Debug|arm64.Deploy.0 = Debug|arm64
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Debug|x64.ActiveCfg = Debug|x64
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Debug|x64.Build.0 = Debug|x64
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Debug|x64.Deploy.0 = Debug|x64
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Debug|x86.ActiveCfg = Debug|x86
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Debug|x86.Build.0 = Debug|x86
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Debug|x86.Deploy.0 = Debug|x86
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Release|arm64.ActiveCfg = Release|arm64
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Release|arm64.Build.0 = Release|arm64
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Release|arm64.Deploy.0 = Release|arm64
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Release|x64.ActiveCfg = Release|x64
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Release|x64.Build.0 = Release|x64
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Release|x64.Deploy.0 = Release|x64
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Release|x86.ActiveCfg = Release|x86
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Release|x86.Build.0 = Release|x86
+		{B83F56F5-573A-4105-A04E-1398C2639CC6}.Release|x86.Deploy.0 = Release|x86
+		{64EF41B6-C497-4D63-A83B-B5D3B82381DA}.Debug|arm64.ActiveCfg = Debug|arm64
+		{64EF41B6-C497-4D63-A83B-B5D3B82381DA}.Debug|arm64.Build.0 = Debug|arm64
+		{64EF41B6-C497-4D63-A83B-B5D3B82381DA}.Debug|x64.ActiveCfg = Debug|x64
+		{64EF41B6-C497-4D63-A83B-B5D3B82381DA}.Debug|x64.Build.0 = Debug|x64
+		{64EF41B6-C497-4D63-A83B-B5D3B82381DA}.Debug|x86.ActiveCfg = Debug|x86
+		{64EF41B6-C497-4D63-A83B-B5D3B82381DA}.Debug|x86.Build.0 = Debug|x86
+		{64EF41B6-C497-4D63-A83B-B5D3B82381DA}.Release|arm64.ActiveCfg = Release|arm64
+		{64EF41B6-C497-4D63-A83B-B5D3B82381DA}.Release|arm64.Build.0 = Release|arm64
+		{64EF41B6-C497-4D63-A83B-B5D3B82381DA}.Release|x64.ActiveCfg = Release|x64
+		{64EF41B6-C497-4D63-A83B-B5D3B82381DA}.Release|x64.Build.0 = Release|x64
+		{64EF41B6-C497-4D63-A83B-B5D3B82381DA}.Release|x86.ActiveCfg = Release|x86
+		{64EF41B6-C497-4D63-A83B-B5D3B82381DA}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
