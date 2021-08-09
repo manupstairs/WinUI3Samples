@@ -12,7 +12,11 @@
             <RowDefinition Height="Auto"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Button x:Name="groupListButton" Click="groupListButton_Click">Group ListView</Button>
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="groupListButton" Click="groupListButton_Click">Group ListView</Button>
+            <Button x:Name="dragDropButton" Click="dragDropButton_Click">Drag and Drop</Button>
+        </StackPanel>
+        
         <Frame x:Name="frameContent" Grid.Row="1"></Frame>
     </Grid>
 </Window>

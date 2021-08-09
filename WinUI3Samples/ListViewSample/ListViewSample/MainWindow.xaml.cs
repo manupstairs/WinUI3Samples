@@ -32,5 +32,10 @@ namespace ListViewSample
         {
             frameContent.Navigate(typeof(GroupListViewPage));
         }
+
+        private void dragDropButton_Click(object sender, RoutedEventArgs e)
+        {
+            frameContent.Navigate(typeof(DragDropPage));
+        }
     }
 }
