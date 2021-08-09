@@ -28,9 +28,9 @@ namespace ListViewSample
             this.InitializeComponent();
         }
 
-        private void myButton_Click(object sender, RoutedEventArgs e)
+        private void groupListButton_Click(object sender, RoutedEventArgs e)
         {
-            myButton.Content = "Clicked";
+            frameContent.Navigate(typeof(GroupListViewPage));
         }
     }
 }
