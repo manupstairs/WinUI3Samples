@@ -12,6 +12,7 @@
   <ItemGroup>
     <None Remove="DragDropPage.xaml" />
     <None Remove="GroupListViewPage.xaml" />
+    <None Remove="ListViewHeaderFooterPage.xaml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,6 +20,12 @@
     <PackageReference Include="Microsoft.ProjectReunion.Foundation" Version="0.8.1" />
     <PackageReference Include="Microsoft.ProjectReunion.WinUI" Version="0.8.1" />
     <Manifest Include="$(ApplicationManifest)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="ListViewHeaderFooterPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
 
   <ItemGroup>

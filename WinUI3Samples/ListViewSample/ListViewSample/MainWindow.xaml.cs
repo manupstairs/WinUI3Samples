@@ -37,5 +37,10 @@ namespace ListViewSample
         {
             frameContent.Navigate(typeof(DragDropPage));
         }
+
+        private void headerFooterButton_Click(object sender, RoutedEventArgs e)
+        {
+            frameContent.Navigate(typeof(ListViewHeaderFooterPage));
+        }
     }
 }

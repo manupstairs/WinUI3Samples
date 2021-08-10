@@ -13,8 +13,9 @@
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal">
-            <Button x:Name="groupListButton" Click="groupListButton_Click">Group ListView</Button>
-            <Button x:Name="dragDropButton" Click="dragDropButton_Click">Drag and Drop</Button>
+            <Button x:Name="groupListButton" Click="groupListButton_Click" Margin="4">Group ListView</Button>
+            <Button x:Name="dragDropButton" Click="dragDropButton_Click" Margin="4">Drag and Drop</Button>
+            <Button x:Name="headerFooterButton" Click="headerFooterButton_Click"  Margin="4">Header and Footer</Button>
         </StackPanel>
         
         <Frame x:Name="frameContent" Grid.Row="1"></Frame>
