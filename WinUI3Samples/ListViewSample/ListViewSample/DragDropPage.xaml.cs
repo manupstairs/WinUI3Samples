@@ -72,13 +72,15 @@ namespace ListViewSample
             };
         }
 
-        private async void ComboBox_Drop(object sender, DragEventArgs e)
+        private void ComboBox_Drop(object sender, DragEventArgs e)
         {
-            if (e.DataView.Contains(StandardDataFormats.Text))
-            {
-                var name = await e.DataView.GetTextAsync();
-                this.SelectedPerson = this.PersonList.FirstOrDefault(p => p.Name == name);
-            }
+            //if (e.DataView.Contains(StandardDataFormats.Text))
+            //{
+            //    var name = await e.DataView.GetTextAsync();
+            //    this.SelectedPerson = this.PersonList.FirstOrDefault(p => p.Name == name);
+            //}
+
+            this.SelectedPerson = DragPerson;
         }
 
         private void ComboBox_DragOver(object sender, DragEventArgs e)
@@ -89,7 +91,7 @@ namespace ListViewSample
         private void TextBlock_DragStarting(UIElement sender, DragStartingEventArgs args)
         {
             DragPerson = (sender as TextBlock).DataContext as Person;
-            args.Data.SetData(StandardDataFormats.Text, DragPerson.Name);
+            //args.Data.SetData(StandardDataFormats.Text, DragPerson.Name);
         }
     }
 }
