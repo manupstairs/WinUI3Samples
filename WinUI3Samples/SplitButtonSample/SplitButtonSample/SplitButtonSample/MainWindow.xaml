@@ -7,7 +7,51 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
-    </StackPanel>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <SplitButton>
+            <Rectangle Width="100" Height="32">
+                <Rectangle.Fill>
+                    <SolidColorBrush Color="{x:Bind colorPicker.Color,Mode=OneWay}"></SolidColorBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <SplitButton.Flyout>
+                <Flyout>
+                    <ColorPicker x:Name="colorPicker" ></ColorPicker>
+                </Flyout>
+            </SplitButton.Flyout>
+        </SplitButton>
+
+
+        <SplitButton Grid.Column="1">
+            <SplitButton.Resources>
+                <CollectionViewSource x:Name="personListCVS" IsSourceGrouped="True" Source="{x:Bind PersonGroup}"/>
+            </SplitButton.Resources>
+            <TextBlock Width="100" Text="{Binding SelectedItem.Name,ElementName=listViewPersons}"></TextBlock>
+            <SplitButton.Flyout>
+                <Flyout>
+                    <ListView x:Name="listViewPersons" ItemsSource="{x:Bind personListCVS.View}" Width="120">
+                        <ListView.GroupStyle>
+                            <GroupStyle>
+                                <GroupStyle.HeaderTemplate>
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding Key}"/>
+                                    </DataTemplate>
+                                </GroupStyle.HeaderTemplate>
+                            </GroupStyle>
+                        </ListView.GroupStyle>
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Name}"></TextBlock>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Flyout>
+            </SplitButton.Flyout>
+        </SplitButton>
+    </Grid>
 </Window>
