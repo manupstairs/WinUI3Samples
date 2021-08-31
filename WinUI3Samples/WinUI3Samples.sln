@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstWinUI3App", "FirstWinU
 EndProject
 Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "ListViewSample (Package)", "ListViewSample\ListViewSample (Package)\ListViewSample (Package).wapproj", "{B83F56F5-573A-4105-A04E-1398C2639CC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListViewSample", "ListViewSample\ListViewSample\ListViewSample.csproj", "{64EF41B6-C497-4D63-A83B-B5D3B82381DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ListViewSample", "ListViewSample\ListViewSample\ListViewSample.csproj", "{64EF41B6-C497-4D63-A83B-B5D3B82381DA}"
+EndProject
+Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "SplitButtonSample (Package)", "SplitButtonSample\SplitButtonSample\SplitButtonSample (Package)\SplitButtonSample (Package).wapproj", "{9E762F22-313F-4C01-9080-51904891F46B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitButtonSample", "SplitButtonSample\SplitButtonSample\SplitButtonSample\SplitButtonSample.csproj", "{0E1DE9B9-9384-41B8-8C03-11FEC45A89F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +85,36 @@ Global
 		{64EF41B6-C497-4D63-A83B-B5D3B82381DA}.Release|x64.Build.0 = Release|x64
 		{64EF41B6-C497-4D63-A83B-B5D3B82381DA}.Release|x86.ActiveCfg = Release|x86
 		{64EF41B6-C497-4D63-A83B-B5D3B82381DA}.Release|x86.Build.0 = Release|x86
+		{9E762F22-313F-4C01-9080-51904891F46B}.Debug|arm64.ActiveCfg = Debug|arm64
+		{9E762F22-313F-4C01-9080-51904891F46B}.Debug|arm64.Build.0 = Debug|arm64
+		{9E762F22-313F-4C01-9080-51904891F46B}.Debug|arm64.Deploy.0 = Debug|arm64
+		{9E762F22-313F-4C01-9080-51904891F46B}.Debug|x64.ActiveCfg = Debug|x64
+		{9E762F22-313F-4C01-9080-51904891F46B}.Debug|x64.Build.0 = Debug|x64
+		{9E762F22-313F-4C01-9080-51904891F46B}.Debug|x64.Deploy.0 = Debug|x64
+		{9E762F22-313F-4C01-9080-51904891F46B}.Debug|x86.ActiveCfg = Debug|x86
+		{9E762F22-313F-4C01-9080-51904891F46B}.Debug|x86.Build.0 = Debug|x86
+		{9E762F22-313F-4C01-9080-51904891F46B}.Debug|x86.Deploy.0 = Debug|x86
+		{9E762F22-313F-4C01-9080-51904891F46B}.Release|arm64.ActiveCfg = Release|arm64
+		{9E762F22-313F-4C01-9080-51904891F46B}.Release|arm64.Build.0 = Release|arm64
+		{9E762F22-313F-4C01-9080-51904891F46B}.Release|arm64.Deploy.0 = Release|arm64
+		{9E762F22-313F-4C01-9080-51904891F46B}.Release|x64.ActiveCfg = Release|x64
+		{9E762F22-313F-4C01-9080-51904891F46B}.Release|x64.Build.0 = Release|x64
+		{9E762F22-313F-4C01-9080-51904891F46B}.Release|x64.Deploy.0 = Release|x64
+		{9E762F22-313F-4C01-9080-51904891F46B}.Release|x86.ActiveCfg = Release|x86
+		{9E762F22-313F-4C01-9080-51904891F46B}.Release|x86.Build.0 = Release|x86
+		{9E762F22-313F-4C01-9080-51904891F46B}.Release|x86.Deploy.0 = Release|x86
+		{0E1DE9B9-9384-41B8-8C03-11FEC45A89F4}.Debug|arm64.ActiveCfg = Debug|arm64
+		{0E1DE9B9-9384-41B8-8C03-11FEC45A89F4}.Debug|arm64.Build.0 = Debug|arm64
+		{0E1DE9B9-9384-41B8-8C03-11FEC45A89F4}.Debug|x64.ActiveCfg = Debug|x64
+		{0E1DE9B9-9384-41B8-8C03-11FEC45A89F4}.Debug|x64.Build.0 = Debug|x64
+		{0E1DE9B9-9384-41B8-8C03-11FEC45A89F4}.Debug|x86.ActiveCfg = Debug|x86
+		{0E1DE9B9-9384-41B8-8C03-11FEC45A89F4}.Debug|x86.Build.0 = Debug|x86
+		{0E1DE9B9-9384-41B8-8C03-11FEC45A89F4}.Release|arm64.ActiveCfg = Release|arm64
+		{0E1DE9B9-9384-41B8-8C03-11FEC45A89F4}.Release|arm64.Build.0 = Release|arm64
+		{0E1DE9B9-9384-41B8-8C03-11FEC45A89F4}.Release|x64.ActiveCfg = Release|x64
+		{0E1DE9B9-9384-41B8-8C03-11FEC45A89F4}.Release|x64.Build.0 = Release|x64
+		{0E1DE9B9-9384-41B8-8C03-11FEC45A89F4}.Release|x86.ActiveCfg = Release|x86
+		{0E1DE9B9-9384-41B8-8C03-11FEC45A89F4}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
